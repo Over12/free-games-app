@@ -3,7 +3,7 @@ export const API = {
   'OPTIONS': {
     method: 'GET',
     headers: {
-      'x-rapidapi-key': import.meta.env.REACT_APP_GAME_API_KEY,
+      'x-rapidapi-key': import.meta.env.VITE_GAME_API_KEY,
       'x-rapidapi-host': 'free-to-play-games-database.p.rapidapi.com'
     }
   }
